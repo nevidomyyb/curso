@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{	
 		caracter sexo
-		inteiro anoN, idade, contrib
+		inteiro anoN, idade, contrib
 		cadeia nome
 	
 		escreva("---------CALCULO DE APOSENTADORIA---------")
