@@ -42,6 +42,11 @@ programa
 				}
 			}
 			cont++
+			//Trecho verificando se os dados inseridos são de um Homem(M) ou Mulher(F)
+			//pM: peças total dos Homens
+			//pF: peças total das Mulheres
+			//m: quantidade total de homens
+			//f: quantidade total de mulheres
 			se (sexo == 'M') {
 				pM = pM + pP
 				m++
@@ -66,8 +71,15 @@ programa
 		escreva("\n------Informativo da Fábrica-----")
 		escreva("\nTotal da folha de pagamento da Fábrica: ", folhaP)
 		escreva("\nTotal de peças fábricadas por mês: ", totalP)
-		escreva("\nMédia de peças fábricadas por homens: ", pM/m)
-		escreva("\nMédia de peças fábricadas por mulheres: ", pF/f)
+		escreva("\n------Analise Homens------")
+		escreva("\nMédia de peças fabricadas por homens: ", pM/m)
+		escreva("\nTotal de peças fabricadas por homens: ", pM)
+		escreva("\nTotal de homens na fábrica: ", m)
+		escreva("\n------Analise Mulheres------")
+		escreva("\nMédia de peças fabricadas por mulheres: ", pF/f)
+		escreva("\nTotal de peças fabricadas por mulheres: ", pF)
+		escreva("\nTotal de mulheres na fábrica: ", f)
+		escreva("\n---------------------------------------------")
 		escreva("\nFuncionário ",maiorSalarioN," teve o maior salário com: ", maiorSalarioV)
 	}
 }
@@ -76,7 +88,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1838; 
+ * @POSICAO-CURSOR = 2036; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
