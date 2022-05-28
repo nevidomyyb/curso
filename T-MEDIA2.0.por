@@ -17,19 +17,20 @@ programa
 			escreva("\nEscolha de 1(janeiro) - 12(dezembro)\n")
 			leia(resa)
 			se (resa == 999) {
-				
+				escreva("\nPrograma Finalizado")
+				pare
 			}
 			escreva("\nA temperatura de ", temperatura[resa-1][0], " foi: ", temperatura[resa-1][1])
 			escreva("\n")
 		}
 	}
-} 
+} 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 412; 
+ * @POSICAO-CURSOR = 580; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
